@@ -20,7 +20,9 @@ format:
 
 # Capture the Flag
 ## Overview
-Capture the Flag, or CTF, focuses primarily on offensive hacking. Users must complete a variety of challenges that test one's knowledge about offensive hacking by retrieving a "flag" that solves the challenge. GSMST CS Club hosts CTF seminars on Thursdays after school to prepare for the annual picoCTF competition in March. There are many categories that CTF focuses on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography. 
+Capture the Flag, or CTF, is largely concerned with offensive hacking. Participating teams must first get a string with a certain format or other content from the competition environment provided by the organizer via ethical hacking techniques, and then submit it to the organizer to receive points. Such information is referred to as "flag."
+
+GSMST CS Club holds CTF workshops after school on Thursdays to prepare for the annual picoCTF tournament in March. Out of the vast range of CTF tasks, we will mostly focus on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography.
 
 ## Important Event Dates
 ### Schoolwide CTF Competition (02/23/2023-03/09/2023)
