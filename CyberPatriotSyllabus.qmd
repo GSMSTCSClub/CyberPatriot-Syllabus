@@ -1,4 +1,4 @@
----
+–--
 title: "GSMST CS Club Cybersecurity Department Syllabus"
 format:
   pdf:
@@ -25,10 +25,10 @@ Capture the Flag, or CTF, is largely concerned with offensive hacking. Participa
 GSMST CS Club holds CTF workshops after school on Thursdays to prepare for the annual picoCTF tournament in March. Out of the vast range of CTF tasks, we will mostly focus on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography.
 
 ## Important Event Dates
-### Schoolwide CTF Competition (02/23/2023-03/09/2023)
+### Schoolwide CTF Competition (02/23/2023–03/09/2023)
 From 3:15 PM on Thursday, February 23 to 4:00 PM on Thursday, March 9, GSMST CS Club will conduct a schoolwide CTF competition to prepare for the picoCTF competition that begins on March 14.
 
-### Official picoCTF Competition (03/14/2023-03/28/2023)
+### Official picoCTF Competition (03/14/2023–03/28/2023)
 The official picoCTF competition will take place in the two weeks between March 14 and March 18. The competition will be hosted on the picoCTF website and will be open to all students in the United States. All GSMST CS Club members are encouraged to compete and put your CTF skills to the test!
 
 ## Seminar Dates and Topics
@@ -42,7 +42,7 @@ Barcodes and QR codes can be used in CTF challenges as a way to hide or encode i
 CyberPatriot is a national defensive cybersecurity competition that takes place during the majority of the school year. The competition focuses on locating and fixing security vulnerabilities located within virtual machines and network topologies. GSMST CS Club hosts CyberPatriot seminars after school every Friday to prepare for the competition and teach the best practices and techniques for securing operating systems.
 
 ## Seminar Dates and Topics
-### Semifinals Preparation (1/12/2023-1/20/2023)
+### Semifinals Preparation (1/12/2023–1/20/2023)
 Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
 
 #### Introduction to Cisco Packet Tracer (1/12/2023)
