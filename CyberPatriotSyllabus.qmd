@@ -1,0 +1,57 @@
+---
+title: "GSMST CS Club Cybersecurity Department Syllabus"
+format:
+  pdf:
+    toc: true
+    toc-title: "Table of Contents"
+    toc-depth: 6
+    number-sections: true
+    colorlinks: true
+    author: 
+        - Anish Goyal
+        - Bibek Bhattari
+        - Garrett Rector 
+        - Henry Bui
+        - Jonah Leopold
+        - Parv Mahajan
+        - Yubo Cao
+---
+{{< pagebreak >}}
+
+# Capture the Flag
+## Overview
+Capture the Flag, or CTF, focuses primarily on offensive hacking. Users must complete a variety of challenges that test one's knowledge about offensive hacking by retrieving a "flag" that solves the challenge. GSMST CS Club hosts CTF seminars on Thursdays after school to prepare for the annual picoCTF competition in March. There are many categories that CTF focuses on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography. 
+
+## Important Event Dates
+### Schoolwide CTF Competition (02/23/2023-03/09/2023)
+From 3:15 PM on Thursday, February 23 to 4:00 PM on Thursday, March 9, GSMST CS Club will conduct a schoolwide CTF competition to prepare for the picoCTF competition that begins on March 14.
+
+### Official picoCTF Competition (03/14/2023-03/28/2023)
+The official picoCTF competition will take place in the two weeks between March 14 and March 18. The competition will be hosted on the picoCTF website and will be open to all students in the United States. All GSMST CS Club members are encouraged to compete and put your CTF skills to the test!
+
+## Seminar Dates and Topics
+### Introduction to Barcode & QR Code Scanning (1/12/2023)
+Barcodes and QR codes can be used in CTF challenges as a way to hide or encode information that players need to find or decode in order to solve the challenge. In this seminar, we will learn how barcode code scanners work behind the scenes to decode barcodes and QR codes. We will also learn how to use a QR code generator to create our own QR codes.
+
+{{< pagebreak >}}
+
+# CyberPatriot
+## Overview
+CyberPatriot is a national defensive cybersecurity competition that takes place during the majority of the school year. The competition focuses on locating and fixing security vulnerabilities located within virtual machines and network topologies. GSMST CS Club hosts CyberPatriot seminars after school every Friday to prepare for the competition and teach the best practices and techniques for securing operating systems.
+
+## Seminar Dates and Topics
+### Semifinals Preparation (1/12/2023-1/20/2023)
+Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
+
+#### Introduction to Cisco Packet Tracer (1/12/2023)
+In this seminar, you will learn 
+
+#### Securing & Hardening Ubuntu/Fedora (1/13/2023)
+a
+
+#### Advanced Cisco Packet Tracer (1/19/2023)
+a
+
+#### Securing & Hardening Windows/Windows Server (1/20/2023)
+a
+
