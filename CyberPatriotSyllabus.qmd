@@ -20,13 +20,15 @@ format:
 
 # Capture the Flag
 ## Overview
-Capture the Flag, or CTF, focuses primarily on offensive hacking. Users must complete a variety of challenges that test one's knowledge about offensive hacking by retrieving a "flag" that solves the challenge. GSMST CS Club hosts CTF seminars on Thursdays after school to prepare for the annual picoCTF competition in March. There are many categories that CTF focuses on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography. 
+Capture the Flag, or CTF, is largely concerned with offensive hacking. Participating teams must first get a string with a certain format or other content from the competition environment provided by the organizer via ethical hacking techniques, and then submit it to the organizer to receive points. Such information is referred to as "flag."
+
+GSMST CS Club holds CTF workshops after school on Thursdays to prepare for the annual picoCTF tournament in March. Out of the vast range of CTF tasks, we will mostly focus on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography.
 
 ## Important Event Dates
-### Schoolwide CTF Competition (02/23/2023-03/09/2023)
+### Schoolwide CTF Competition (02/23/2023–03/09/2023)
 From 3:15 PM on Thursday, February 23 to 4:00 PM on Thursday, March 9, GSMST CS Club will conduct a schoolwide CTF competition to prepare for the picoCTF competition that begins on March 14.
 
-### Official picoCTF Competition (03/14/2023-03/28/2023)
+### Official picoCTF Competition (03/14/2023–03/28/2023)
 The official picoCTF competition will take place in the two weeks between March 14 and March 18. The competition will be hosted on the picoCTF website and will be open to all students in the United States. All GSMST CS Club members are encouraged to compete and put your CTF skills to the test!
 
 ## Seminar Dates and Topics
@@ -40,14 +42,16 @@ Barcodes and QR codes can be used in CTF challenges as a way to hide or encode i
 CyberPatriot is a national defensive cybersecurity competition that takes place during the majority of the school year. The competition focuses on locating and fixing security vulnerabilities located within virtual machines and network topologies. GSMST CS Club hosts CyberPatriot seminars after school every Friday to prepare for the competition and teach the best practices and techniques for securing operating systems.
 
 ## Seminar Dates and Topics
-### Semifinals Preparation (1/12/2023-1/20/2023)
+### Semifinals Preparation (1/12/2023–1/20/2023)
 Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
 
-#### Introduction to Cisco Packet Tracer (1/12/2023)
-In this seminar, you will learn 
+#### Introduction to Cisco Packet Tracer (1/12/2023) {#sec-intro-cisco-packet-tracer}
+In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
 
-#### Securing & Hardening Ubuntu/Fedora (1/13/2023)
-a
+#### Securing & Hardening Ubuntu/Fedora (1/13/2023) {#sec-harden-ubuntu-fedora}
+This session will teach you how to protect and harden Ubuntu and Fedora by using access control lists (ACLs), discretionary access control (DAC), and mandatory access control (MAC). The distinction between Redhat-family Linux and Debain-family Linux is also discussed, as well as their similarities and distinctions. For Redhat-family linux, an overview of the use of 'dnf,' 'yum,' and 'rpm' is also provided. Capabilities such as SELinux, Apparmor, 'getfattr,' 'getacl,' and 'getfcap' are also addressed.
+
+{{< pagebreak >}}
 
 #### Advanced Cisco Packet Tracer (1/19/2023)
 a
@@ -55,3 +59,346 @@ a
 #### Securing & Hardening Windows/Windows Server (1/20/2023)
 a
 
+### Content Seminars (1/27/2023–4/28/2023)
+
+#### Introduction to Scripting (1/27/2023)
+
+In this seminar, you will learn basics of 3 scripting languages:
+- Bash (Linux)
+- Python (Platform-agnostic)
+- Powershell (Windows)
+
+As you embark on this seminar, it's recommended that you have prior experience with AP CSP or AP CSA, though it is not a requirement. The primary demonstration tool that will be used is Bash on an Ubuntu 22.04 VM. However, the knowledge gained during this seminar is considered to be generally applicable.
+
+We will cover topics such as output redirection, standard input/output, environmental variables, and profile files like `.bashrc` or `~/Documents/Powershell/Microsoft.PowerShell_profile.ps1`. The goal of this seminar is to empower you with the ability to read and understand code and reference manuals, rather than feeling overwhelmed and unsure.
+
+Please note that this seminar will not be a comprehensive overview of all CLI tools, as it is assumed that you have a basic understanding of them. Instead, the focus will be on language structure and extremely common operations.
+
+- if/else
+  ```bash
+  if [ $1 -gt 0 ]; then
+    echo "Positive"
+  fi
+  ```
+
+  ```python
+  if sys.argv[1] > 0:
+    print("Positive")
+  ```
+
+  ```powershell
+  if ($args[0] -gt 0) {
+    Write-Output "Positive"
+  }
+  ```
+- for
+  ```bash
+  for i in {1..10}; do
+    echo $i
+  done
+  ```
+
+  ```python
+  for i in range(1, 11):
+    print(i)
+  ```
+
+  ```powershell
+  for ($i = 1; $i -le 10; $i++) {
+    Write-Output $i
+  }
+  ```
+- while
+  ```bash
+  i=1
+  while [ $i -le 10 ]; do
+    echo $i
+    i=$((i+1))
+  done
+  ```
+
+  ```python
+  i = 1
+  while i <= 10:
+    print(i)
+    i += 1
+  ```
+
+  ```powershell
+  $i = 1
+  while ($i -le 10) {
+    Write-Output $i
+    $i++
+  }
+  ```
+- switch
+  ```bash
+  case $1 in
+    1)
+      echo "Anish YYDS"
+      ;;
+    *)
+      echo "Other"
+      ;;
+  esac
+  ```
+
+  ```python
+  # Compatibility with Python 3.9 and below:
+  switch = {
+    1: lambda : print("Anish YYDS"),
+    "_": lambda : print("Other")
+  }
+  switch.get(sys.argv[1], switch["_"])()
+
+  # Python 3.10+:
+  match sys.argv[1]:
+    case 1:
+      print("Anish YYDS")
+    case _:
+      print("Other")
+  ```
+
+  ```powershell
+  switch ($args[0]) {
+    1 { Write-Output "Anish YYDS" }
+    default { Write-Output "Other" }
+  }
+  ```
+
+- functions
+  ```bash
+  function hello() {
+    echo "Hello, $1!"
+  }
+  hello "World"
+  ```
+  
+  ```python
+  def hello(name):
+    print(f"Hello, {name}!")
+  hello("World")
+  ```
+  
+  ```powershell
+  function Write-Hello($name) {
+    Write-Output "Hello, $name!"
+  }
+  Write-Hello -name "World"
+  ```
+
+- Mapping data structures
+  ```bash
+  declare -A dict
+  dict["key"]="value"
+  echo ${dict["key"]}
+  ```
+  
+  ```python
+  dict = {"key": "value"}
+  print(dict["key"])
+  ```
+  
+  ```powershell
+  $dict = @{key="value"}
+  Write-Output $dict.key
+  ```
+- List data structures
+  ```bash
+  list=(1 2 3)
+  echo ${list[0]}
+  ```
+  
+  ```python
+  list = [1, 2, 3]
+  print(list[0])
+  ```
+  
+  ```powershell
+  $list = 1, 2, 3
+  Write-Output $list[0]
+  ```
+
+Only extremely common operations will be introduced:
+
+- `ls`, `Get-ChildItem`, and `Path.iterdir()`
+- `cd`, `Set-Location`, and `os.chdir()`
+- `mkdir`, `New-Item`, and `Path.mkdir()`
+- `rm`, `Remove-Item`, and `Path.unlink()`
+- `cat`, `Get-Content`, and `Path.read_text()`
+- `echo`, `Write-Output`, and `print()`
+- `grep`, `Select-String`, and `re.search()`
+- `sed`, `Select-String`, and `re.sub()`
+- `awk`, `Select-String`, and `re.split()`
+- `wc`, `Measure-Object`, and `len()`
+
+<!-- 
+TODO: Add Link here 
+-->
+
+You will be invited to participate in srcipting project of CyberPatriot, where we will build a script that will automate the process of setting up a secure baseline for Ubuntu, Windows, and Windows Server.
+
+#### ACL (access control list) (2/10/2023)
+
+In this seminar, you will gain a comprehensive understanding of the ACL (access control list) feature in Windows and how to effectively use it to secure your system. One of the key tools you will learn about is active directory, which allows for systematic management of ACLs, user accounts, and group memberships across multiple systems with a single source of truth.
+
+You will also learn about the principle of least privilege and its importance in securing your system. Topics such as DCom, account policy, user policy, and group policy will be covered in the user configuration section. As an example, Autoplay will be disabled. Additionally, you will learn about password complexity requirements and how to set local and domain password policies. As an optional topic, you may also learn about how to set Cisco password policies. ACLs in Linux is already covered at @sec-harden-ubuntu-fedora and shall not be covered in this seminar.
+
+By the end of this seminar, you will be equipped with the knowledge and skills needed to effectively secure your system using ACLs and other related tools and techniques.
+
+#### Common Web Services (2/24/2023)
+
+<!-- Potentially duplicated with @sec-intro-cisco-packet-tracer -->
+In this seminar, you will learn about Cisco networking technology and its applications in Internet-based systems. You will be introduced to concepts such as interfaces, IP addressing, VLANs, and Gigabytes Ethernet interfaces. You will also learn about routing protocols, specifically OSPF, and their role in managing and maintaining Internet-based systems. This is considered as an intermediate-level review of networking concepts.
+
+```cisco
+enable
+configure terminal
+interface gigabitethernet 0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown
+exit
+```
+
+```cisco
+enable
+configure terminal
+router ospf 1
+network
+```
+
+You will be introduced to the concepts of planning and managing Internet-based systems. The focus will be on Linux services, with specific emphasis on Nginx, Apache, and PHP. You will learn how to configure and optimize these services for optimal performance and security.
+
+```bash
+sudo apt install nginx apache php-fpm
+```
+
+```bash
+sudo systemctl enable --now nginx apache php-fpm
+```
+
+<!-- Maybe configure them a bit -->
+
+Throughout the seminar, you will participate in hands-on activities that will allow you to apply the concepts you have learned to real-world scenarios. You will start with Cisco, learning about its interfaces and routing, then move on to Linux services, learning about Nginx, Apache, and PHP.
+
+#### Security in Network (3/3/2023)
+
+In this seminar, you will delve into the topic of security in network systems, with a particular focus on Cisco. You will learn about a variety of security-related features and protocols, including SSH and RSA for secure telecommunication, NAT for network address translation, Telnet for remote access, and the console port for physical access control.
+
+You will also learn about Cisco's AAA (Authentication, Authorization, and Accounting), which provides a centralized way to manage access control and user authentication. Additionally, you will learn about Cisco's audit feature and its role in monitoring network activity and detecting security breaches. Finally, VPN (Virtual Private Network) will be covered, which allows for secure communication over public networks.
+
+If there is extra time, SSH in Linux will be covered, e.g., generate public and private keys, and configure SSH server and client.
+
+
+```cisco
+enable
+configure terminal
+ip domain-name anish.com
+crypto key generate rsa
+ip ssh version 2
+username admin privilege 15 secret admin
+line vty 0 4
+transport input ssh
+login local
+```
+
+```cisco
+enable
+configure terminal
+aaa new-model
+aaa authentication login default local
+radius-server host 192.168.1.1 key cisco
+line vty 0 4
+login authentication default
+```
+
+```cisco
+crypto isakmp policy 10
+encryption aes
+hash sha
+authentication pre-share
+```
+
+#### Diversity in Linux (3/10/2023)
+
+<!-- 
+TODO: Garrett choose this. Do we want to cover this?
+ -->
+
+In this seminar, you will learn about the diversity of Linux distributions and how to choose the right one for your needs (basically, how to be a good Linux user). We will cover a few topics below:
+
+- Package managers, `apt`, `dnf`, and `pacman` (Ubuntu, Fedora, and Arch)
+- GUI development frameworks, `qt`, `gtk`, and `wx`
+- Translation layers, `wine`, `proton`, and `darling`
+- Modern cloud computing and containerization, `docker`, `kubernetes`, and `podman`
+
+![Kde](images/kde.png){height=1.5in}
+
+![Gnome](images/gnome.png){height=1.5in}
+
+#### Common Service Configuration (3/24/2023)
+
+In this seminar, you will learn about common services and their configurations in Linux and Windows systems. You will begin by learning about file services, specifically FTP (Vsftpd) and NFS, and how to set them up and configure them for optimal performance and security. You will also learn about Samba, a service that allows Linux systems to share files with Windows systems and vice versa. 
+
+Additionally, you will learn about database management, specifically MySQL/MariaDB and basic SQL. We will not focus on CRUD operations, but rather on how to set up a database server and configure it for optimal security.
+
+```sql
+CREATE LOGIN admin WITH PASSWORD = 'admin';
+CREATE USER admin FOR LOGIN admin;
+CREATE DATABASE test;
+GRANT ALL ON test.* TO admin;
+```
+
+Optionally, we may cover `choco` and `scoop` for Windows.
+
+#### Operation System (3/31/2023)
+
+
+Welcome! Today is the start of CS club officer applications. If you are interested in applying, please fill out the form.
+
+<!-- 
+TODO: Add Link here
+ -->
+
+Operating systems are responsible for managing the resources of a computer system. In this seminar, you will learn about the basic concepts of operating systems, including processes, threads, user-space, kernal space, bootloader, kernal parameters, system calls, and virtual file systems. 
+
+First, we will look at the grub bootloader, which is responsible for loading the Linux kernel and initializing the operating system. We will learn how to configure and troubleshoot grub. We will also discuss the procedure of booting a Linux system:
+
+1. BIOS performs POST upon power-on
+2. BIOS loads bootable device, e.g., boot loader at MBR
+3. GRUB is loaded and executed
+4. GRUB loads the initramfs, which is a temporary file system
+5. Initramfs loads the kernel
+6. Kernel loads init, which is the first process to run. Systemd is the default init system in modern Linux distributions.
+
+Next, we will delve into `sysctl`, a tool that allows us to configure kernel parameters at runtime. We will learn how to use sysctl to optimize the performance and security of our Linux systems. For example, IPv4 assassination attack can be prevented by setting `net.ipv4.tcp_rfc1337` to 1.
+
+After that, we will learn about system calls, which are the interface between user-space and kernal-space. We will learn how to use `strace` to trace system calls and `ltrace` to trace library calls. We will also learn how to use `gdb` to debug system calls.
+
+Finally, we will explore LVM, RAID, VFS, and the mount command, which are all used to manage and organize storage in Linux. In addition, we will take a deep dive into the structure of the Ext4 file system, and learn about `ext4undelete` and `sleuthkit`, which are tools that can be used to recover deleted files.
+
+#### Forensics Guide (4/14/2023)
+
+In this seminar, we will explore forensics questions. For Windows, Process Explorer, Process Monitor, Show hidde, TCP View and Treesize free will be introduced. The "Get-Service" command can be used to view and manage services on a Windows system.For Linux, `crontab`, `services`, and `systemd` will be introduced Crontab is a Linux utility that is used to schedule and run recurring tasks, while services and systemd are used to manage and configure running processes and services. Wireshark and Netstat can be used to analyze network traffic and connections, regardless of the operating system. We will also learn about `tcpdump`, which is a command-line tool that can be used to capture and analyze network traffic.
+
+#### Basic Setup (4/21/2023)
+
+In this seminar, we will summarize and review the concepts we have learned so far. We will create a checklist of things to do when a new image had been delivered to us. 
+
+For linux, here are some samples:
+- configuring OpenSSH on Linux
+- updating packages with Apt
+Windows:
+- enabling interactive login and Ctrl+Alt+Del on Windows
+- creating backup and restore points
+- securing drives
+For all of them:
+- installing VMWare tools
+- adjusting screen resolution
+- cleaning user accounts and removing unwanted software
+- protecting against malware with anti-virus.
+
+
+#### Chill (4/28/2023)
+
+End of year celebration. Maybe a final exam as well.
