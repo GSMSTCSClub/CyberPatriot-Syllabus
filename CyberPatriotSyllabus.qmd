@@ -1,4 +1,4 @@
-–--
+---
 title: "GSMST CS Club Cybersecurity Department Syllabus"
 format:
   pdf:
@@ -59,3 +59,194 @@ a
 #### Securing & Hardening Windows/Windows Server (1/20/2023)
 a
 
+### Content Seminars (1/27/2023–4/28/2023)
+
+#### Introduction to Scripting (1/27/2023)
+
+In this seminar, you will learn basics of 3 scripting languages in 1 seminar:
+- Bash (Linux)
+- Python (Platform-agnostic)
+- Powershell (Windows)
+
+Prior experience in AP CSP or AP CSA is recommended, though not required. The primary demonstration tool will be Bash on an Ubuntu 22.04 VM, though the knowledge is considered to be generally application. Output redirection, standard input/output, environmental variables, profile `.bashrc` or `~/Documents/Powershell/Microsoft.PowerShell_profile.ps1`. The primary focus shall be control flow, functions, and data structures:
+
+- if/else
+  ```bash
+  if [ $1 -gt 0 ]; then
+    echo "Positive"
+  fi
+  ```
+
+  ```python
+  if sys.argv[1] > 0:
+    print("Positive")
+  ```
+
+  ```powershell
+  if ($args[0] -gt 0) {
+    Write-Output "Positive"
+  }
+  ```
+- for
+  ```bash
+  for i in {1..10}; do
+    echo $i
+  done
+  ```
+
+  ```python
+  for i in range(1, 11):
+    print(i)
+  ```
+
+  ```powershell
+  for ($i = 1; $i -le 10; $i++) {
+    Write-Output $i
+  }
+  ```
+- while
+  ```bash
+  i=1
+  while [ $i -le 10 ]; do
+    echo $i
+    i=$((i+1))
+  done
+  ```
+
+  ```python
+  i = 1
+  while i <= 10:
+    print(i)
+    i += 1
+  ```
+
+  ```powershell
+  $i = 1
+  while ($i -le 10) {
+    Write-Output $i
+    $i++
+  }
+  ```
+- switch
+  ```bash
+  case $1 in
+    1)
+      echo "Anish YYDS"
+      ;;
+    *)
+      echo "Other"
+      ;;
+  esac
+  ```
+
+  ```python
+  # Compatibility with Python 3.9 and below:
+  switch = {
+    1: lambda : print("Anish YYDS"),
+    "_": lambda : print("Other")
+  }
+  switch.get(sys.argv[1], switch["_"])()
+
+  # Python 3.10+:
+  match sys.argv[1]:
+    case 1:
+      print("Anish YYDS")
+    case _:
+      print("Other")
+  ```
+
+  ```powershell
+  switch ($args[0]) {
+    1 { Write-Output "Anish YYDS" }
+    default { Write-Output "Other" }
+  }
+  ```
+- functions
+  ```bash
+  function hello() {
+    echo "Hello, $1!"
+  }
+  hello "World"
+  ```
+  
+  ```python
+  def hello(name):
+    print(f"Hello, {name}!")
+  hello("World")
+  ```
+  
+  ```powershell
+  function Write-Hello($name) {
+    Write-Output "Hello, $name!"
+  }
+  Write-Hello -name "World"
+  ```
+
+- Mapping data structures
+  ```bash
+  declare -A dict
+  dict["key"]="value"
+  echo ${dict["key"]}
+  ```
+  
+  ```python
+  dict = {"key": "value"}
+  print(dict["key"])
+  ```
+  
+  ```powershell
+  $dict = @{key="value"}
+  Write-Output $dict.key
+  ```
+- List data structures
+  ```bash
+  list=(1 2 3)
+  echo ${list[0]}
+  ```
+  
+  ```python
+  list = [1, 2, 3]
+  print(list[0])
+  ```
+  
+  ```powershell
+  $list = 1, 2, 3
+  Write-Output $list[0]
+  ```
+
+Only extremely common operations will be introduced:
+
+- `ls`, `Get-ChildItem`, and `Path.iterdir()`
+- `cd`, `Set-Location`, and `os.chdir()`
+- `mkdir`, `New-Item`, and `Path.mkdir()`
+- `rm`, `Remove-Item`, and `Path.unlink()`
+- `cat`, `Get-Content`, and `Path.read_text()`
+- `echo`, `Write-Output`, and `print()`
+- `grep`, `Select-String`, and `re.search()`
+- `sed`, `Select-String`, and `re.sub()`
+- `awk`, `Select-String`, and `re.split()`
+- `wc`, `Measure-Object`, and `len()`
+
+
+
+#### (2/10/2023)
+
+#### (2/24/2023)
+
+#### (3/3/2023)
+
+#### (3/10/2023)
+
+#### (3/24/2023)
+
+#### (3/31/2023)
+
+Annouce CS Club officer application
+
+#### (4/14/2023)
+
+#### (4/21/2023)
+
+#### (4/28/2023)
+
+End of year celebration
