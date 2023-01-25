@@ -332,7 +332,12 @@ In this seminar, you will learn about the diversity of Linux distributions and h
 - Translation layers, `wine`, `proton`, and `darling`
 - Modern cloud computing and containerization, `docker`, `kubernetes`, and `podman`
 
+![Kde](images/kde.png){height=1.5in}
+
+![Gnome](images/gnome.png){height=1.5in}
+
 #### (3/24/2023)
+
 
 #### (3/31/2023)
 
