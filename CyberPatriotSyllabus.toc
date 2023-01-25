@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Capture the Flag}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Overview}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Important Event Dates}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Schoolwide CTF Competition (02/23/2023--03/09/2023)}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Official picoCTF Competition (03/14/2023--03/28/2023)}{2}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Seminar Dates and Topics}{2}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Introduction to Barcode \& QR Code Scanning (1/12/2023)}{2}{subsubsection.1.3.1}%
+\contentsline {section}{\numberline {2}CyberPatriot}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Overview}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Seminar Dates and Topics}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Semifinals Preparation (1/12/2023--1/20/2023)}{3}{subsubsection.2.2.1}%
+\contentsline {paragraph}{\numberline {2.2.1.1}Introduction to Cisco Packet Tracer (1/12/2023)}{3}{paragraph.2.2.1.1}%
+\contentsline {paragraph}{\numberline {2.2.1.2}Securing \& Hardening Ubuntu/Fedora (1/13/2023)}{3}{paragraph.2.2.1.2}%
+\contentsline {paragraph}{\numberline {2.2.1.3}Advanced Cisco Packet Tracer (1/19/2023)}{4}{paragraph.2.2.1.3}%
+\contentsline {paragraph}{\numberline {2.2.1.4}Securing \& Hardening Windows/Windows Server (1/20/2023)}{4}{paragraph.2.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.2.2}Content Seminars (1/27/2023--4/28/2023)}{4}{subsubsection.2.2.2}%
+\contentsline {paragraph}{\numberline {2.2.2.1}Introduction to Scripting (1/27/2023)}{4}{paragraph.2.2.2.1}%
+\contentsline {paragraph}{\numberline {2.2.2.2}ACL (access control list) (2/10/2023)}{7}{paragraph.2.2.2.2}%
+\contentsline {paragraph}{\numberline {2.2.2.3}Common Web Services (2/24/2023)}{8}{paragraph.2.2.2.3}%
+\contentsline {paragraph}{\numberline {2.2.2.4}(3/3/2023)}{8}{paragraph.2.2.2.4}%
+\contentsline {paragraph}{\numberline {2.2.2.5}(3/10/2023)}{8}{paragraph.2.2.2.5}%
+\contentsline {paragraph}{\numberline {2.2.2.6}(3/24/2023)}{8}{paragraph.2.2.2.6}%
+\contentsline {paragraph}{\numberline {2.2.2.7}(3/31/2023)}{8}{paragraph.2.2.2.7}%
+\contentsline {paragraph}{\numberline {2.2.2.8}(4/14/2023)}{8}{paragraph.2.2.2.8}%
+\contentsline {paragraph}{\numberline {2.2.2.9}(4/21/2023)}{8}{paragraph.2.2.2.9}%
+\contentsline {paragraph}{\numberline {2.2.2.10}(4/28/2023)}{8}{paragraph.2.2.2.10}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

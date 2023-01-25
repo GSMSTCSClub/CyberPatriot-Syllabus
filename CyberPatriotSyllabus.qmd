@@ -48,7 +48,7 @@ Because CyberPatriot semifinals will take place on Saturday, January 21, we will
 #### Introduction to Cisco Packet Tracer (1/12/2023)
 In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
 
-#### Securing & Hardening Ubuntu/Fedora (1/13/2023)
+#### Securing & Hardening Ubuntu/Fedora (1/13/2023) {#securing-harden-ubuntu-fedora}
 This session will teach you how to protect and harden Ubuntu and Fedora by using access control lists (ACLs), discretionary access control (DAC), and mandatory access control (MAC). The distinction between Redhat-family Linux and Debain-family Linux is also discussed, as well as their similarities and distinctions. For Redhat-family linux, an overview of the use of 'dnf,' 'yum,' and 'rpm' is also provided. Capabilities such as SELinux, Apparmor, 'getfattr,' 'getacl,' and 'getfcap' are also addressed.
 
 {{< pagebreak >}}
@@ -232,9 +232,17 @@ Only extremely common operations will be introduced:
 - `wc`, `Measure-Object`, and `len()`
 
 
-#### (2/10/2023)
+#### ACL (access control list) (2/10/2023)
 
-#### (2/24/2023)
+In this seminar, you will gain a comprehensive understanding of the ACL (access control list) feature in Windows and how to effectively use it to secure your system. One of the key tools you will learn about is active directory, which allows for systematic management of ACLs, user accounts, and group memberships across multiple systems with a single source of truth.
+
+You will also learn about the principle of least privilege and its importance in securing your system. Topics such as DCom, account policy, user policy, and group policy will be covered in the user configuration section. As an example, Autoplay will be disabled. Additionally, you will learn about password complexity requirements and how to set local and domain password policies. As an optional topic, you may also learn about how to set Cisco password policies. ACLs in Linux is already covered at @securing-harden-ubuntu-fedora and shall not be covered in this seminar.
+
+By the end of this seminar, you will be equipped with the knowledge and skills needed to effectively secure your system using ACLs and other related tools and techniques.
+
+#### Common Web Services (2/24/2023)
+
+
 
 #### (3/3/2023)
 
