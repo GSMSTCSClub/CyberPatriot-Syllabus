@@ -283,9 +283,54 @@ Throughout the seminar, you will participate in hands-on activities that will al
 
 #### Security in Network (3/3/2023)
 
+In this seminar, you will delve into the topic of security in network systems, with a particular focus on Cisco. You will learn about a variety of security-related features and protocols, including SSH and RSA for secure telecommunication, NAT for network address translation, Telnet for remote access, and the console port for physical access control.
+
+You will also learn about Cisco's AAA (Authentication, Authorization, and Accounting), which provides a centralized way to manage access control and user authentication. Additionally, you will learn about Cisco's audit feature and its role in monitoring network activity and detecting security breaches. Finally, VPN (Virtual Private Network) will be covered, which allows for secure communication over public networks.
+
+If there is extra time, SSH in Linux will be covered, e.g., generate public and private keys, and configure SSH server and client.
 
 
-#### (3/10/2023)
+```cisco
+enable
+configure terminal
+ip domain-name anish.com
+crypto key generate rsa
+ip ssh version 2
+username admin privilege 15 secret admin
+line vty 0 4
+transport input ssh
+login local
+```
+
+```cisco
+enable
+configure terminal
+aaa new-model
+aaa authentication login default local
+radius-server host 192.168.1.1 key cisco
+line vty 0 4
+login authentication default
+```
+
+```cisco
+crypto isakmp policy 10
+encryption aes
+hash sha
+authentication pre-share
+```
+
+#### Diversity in Linux (3/10/2023)
+
+<!-- 
+TODO: Garrett choose this. Do we want to cover this?
+ -->
+
+In this seminar, you will learn about the diversity of Linux distributions and how to choose the right one for your needs (basically, how to be a good Linux user). We will cover a few topics below:
+
+- Package managers, `apt`, `dnf`, and `pacman` (Ubuntu, Fedora, and Arch)
+- GUI development frameworks, `qt`, `gtk`, and `wx`
+- Translation layers, `wine`, `proton`, and `darling`
+- Modern cloud computing and containerization, `docker`, `kubernetes`, and `podman`
 
 #### (3/24/2023)
 
