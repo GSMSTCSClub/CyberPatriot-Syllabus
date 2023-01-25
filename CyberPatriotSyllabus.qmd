@@ -63,12 +63,16 @@ a
 
 #### Introduction to Scripting (1/27/2023)
 
-In this seminar, you will learn basics of 3 scripting languages in 1 seminar:
+In this seminar, you will learn basics of 3 scripting languages:
 - Bash (Linux)
 - Python (Platform-agnostic)
 - Powershell (Windows)
 
-Prior experience in AP CSP or AP CSA is recommended, though not required. The primary demonstration tool will be Bash on an Ubuntu 22.04 VM, though the knowledge is considered to be generally application. Output redirection, standard input/output, environmental variables, profile `.bashrc` or `~/Documents/Powershell/Microsoft.PowerShell_profile.ps1`. The primary focus shall be control flow, functions, and data structures:
+As you embark on this seminar, it's recommended that you have prior experience with AP CSP or AP CSA, though it is not a requirement. The primary demonstration tool that will be used is Bash on an Ubuntu 22.04 VM. However, the knowledge gained during this seminar is considered to be generally applicable.
+
+We will cover topics such as output redirection, standard input/output, environmental variables, and profile files like `.bashrc` or `~/Documents/Powershell/Microsoft.PowerShell_profile.ps1`. The goal of this seminar is to empower you with the ability to read and understand code and reference manuals, rather than feeling overwhelmed and unsure.
+
+Please note that this seminar will not be a comprehensive overview of all CLI tools, as it is assumed that you have a basic understanding of them. Instead, the focus will be on language structure and extremely common operations.
 
 - if/else
   ```bash
@@ -226,7 +230,6 @@ Only extremely common operations will be introduced:
 - `sed`, `Select-String`, and `re.sub()`
 - `awk`, `Select-String`, and `re.split()`
 - `wc`, `Measure-Object`, and `len()`
-
 
 
 #### (2/10/2023)
