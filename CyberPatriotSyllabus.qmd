@@ -25,16 +25,30 @@ Capture the Flag, or CTF, is largely concerned with offensive hacking. Participa
 GSMST CS Club holds CTF workshops after school on Thursdays to prepare for the annual picoCTF tournament in March. Out of the vast range of CTF tasks, we will mostly focus on: general skills, reverse engineering, binary exploitation, forensics, web exploitation, and cryptography.
 
 ## Important Event Dates
-### Schoolwide CTF Competition (02/23/2023–03/09/2023)
-From 3:15 PM on Thursday, February 23 to 4:00 PM on Thursday, March 9, GSMST CS Club will conduct a schoolwide CTF competition to prepare for the picoCTF competition that begins on March 14.
+### In-House CTF Competition (02/23/2023–03/09/2023)
+From 3:15 PM on Thursday, February 23 to 4:00 PM on Thursday, March 9, GSMST CS Club will conduct a in-house CTF competition to prepare for the picoCTF competition that begins on March 14.
 
 ### Official picoCTF Competition (03/14/2023–03/28/2023)
 The official picoCTF competition will take place in the two weeks between March 14 and March 18. The competition will be hosted on the picoCTF website and will be open to all students in the United States. All GSMST CS Club members are encouraged to compete and put your CTF skills to the test!
 
 ## Seminar Dates and Topics
-### Introduction to Barcode & QR Code Scanning (1/12/2023)
+### Introduction to Barcode & QR Code Scanning (1/19/2023)
 Barcodes and QR codes can be used in CTF challenges as a way to hide or encode information that players need to find or decode in order to solve the challenge. In this seminar, we will learn how barcode code scanners work behind the scenes to decode barcodes and QR codes. We will also learn how to use a QR code generator to create our own QR codes.
 
+### Introduction to Buffer Overflows (1/26/2023)
+A buffer overflow is a type of software vulnerability that occurs when more data is written to a buffer than it can hold. This excess data overwrites adjacent memory locations, potentially altering or corrupting important data or instructions. Buffer overflows can be exploited by attackers to inject malicious code or execute arbitrary commands, allowing them to take control of the affected system. They are a common method for hackers to gain access to sensitive information or disrupt system operations. 
+
+### Using Pwntools (2/2/2023)
+Pwntools is a Python library used for writing and exploiting software vulnerabilities in binary programs. It provides a wide range of functionality for interacting with binary programs, including process and memory manipulation, networking, and ELF parsing. Pwntools is commonly used in the field of penetration testing and security research to aid in the discovery and exploitation of software vulnerabilities. It allows for the automating repetitive tasks and the ability to quickly and easily test and debug exploit code.
+
+### General Review (2/9/2023)
+This seminar will be a general review of all the CTF topics we have covered so far. We will also be going over the picoCTF competition rules and how to register for the competition. We will cover the basics of the competition and the types of challenges you can expect to encounter. Finally, we will also discuss strategies for preparing for the competition and tips for success.
+
+### In-House CTF Competition (2/23/2023 & 3/9/2023)
+The in-house CTF competition will be conducted from 3:15-4:00 on Thursday, February 23 to Thursday, March 9 from 3:15-4:00. The competition will be open to all GSMST students and will be hosted on the GSMST CS Club website.
+
+### picoCTF Competition (3/16/2023 & 3/23/2023)
+picoCTF has begun! We will be discussing picoCTF problems from this competition season and additional steps you can take to approach and solve CTF problems. We will also be working as a collective to solve picoCTF problems to earn points for our team.
 {{< pagebreak >}}
 
 # CyberPatriot
@@ -45,11 +59,11 @@ CyberPatriot is a national defensive cybersecurity competition that takes place 
 ### CyberPatriot Semifinals (1/21/2023)
 The CyberPatriot semifinals will take place on Saturday, January 21. The semifinals will be held in the LLLH from 9:00 AM to 3:00 PM. The semifinals will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The semifinals will be hosted by the CyberPatriot organization and will be open to all teams in the United States.
 
-### Schoolwide CyberPatriot Competition (2/25/2023)
-The first schoolwide CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. The competition will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The competition will be hosted by GSMST CS Club and will be open to all GSMST students. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team. 
+### In-House CyberPatriot Competition (2/25/2023)
+The first in-house CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. The competition will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The competition will be hosted by GSMST CS Club and will be open to all GSMST students. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team. 
 
-### Schoolwide CyberPatriot Compeition (4/8/2023)
-The second (and final) schoolwide CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team.
+### In-House CyberPatriot Compeition (4/8/2023)
+The second (and final) in-house CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team.
 
 ## Seminar Dates and Topics
 ### Semifinals Preparation (1/12/2023–1/20/2023)
