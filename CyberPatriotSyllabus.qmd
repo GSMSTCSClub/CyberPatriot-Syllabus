@@ -336,14 +336,50 @@ In this seminar, you will learn about the diversity of Linux distributions and h
 
 ![Gnome](images/gnome.png){height=1.5in}
 
-#### (3/24/2023)
+#### Common Service Configuration (3/24/2023)
+
+In this seminar, you will learn about common services and their configurations in Linux and Windows systems. You will begin by learning about file services, specifically FTP (Vsftpd) and NFS, and how to set them up and configure them for optimal performance and security. You will also learn about Samba, a service that allows Linux systems to share files with Windows systems and vice versa. 
+
+Additionally, you will learn about database management, specifically MySQL/MariaDB and basic SQL. We will not focus on CRUD operations, but rather on how to set up a database server and configure it for optimal security.
+
+```sql
+CREATE LOGIN admin WITH PASSWORD = 'admin';
+CREATE USER admin FOR LOGIN admin;
+CREATE DATABASE test;
+GRANT ALL ON test.* TO admin;
+```
+
+Optionally, we may cover `choco` and `scoop` for Windows.
+
+#### Operation System (3/31/2023)
 
 
-#### (3/31/2023)
+Welcome! Today is the start of CS club officer applications. If you are interested in applying, please fill out the form.
 
-Annouce CS Club officer application
+<!-- 
+TODO: Add Link here
+ -->
 
-#### (4/14/2023)
+Operating systems are responsible for managing the resources of a computer system. In this seminar, you will learn about the basic concepts of operating systems, including processes, threads, user-space, kernal space, bootloader, kernal parameters, system calls, and virtual file systems. 
+
+First, we will look at the grub bootloader, which is responsible for loading the Linux kernel and initializing the operating system. We will learn how to configure and troubleshoot grub. We will also discuss the procedure of booting a Linux system:
+
+1. BIOS performs POST upon power-on
+2. BIOS loads bootable device, e.g., boot loader at MBR
+3. GRUB is loaded and executed
+4. GRUB loads the initramfs, which is a temporary file system
+5. Initramfs loads the kernel
+6. Kernel loads init, which is the first process to run. Systemd is the default init system in modern Linux distributions.
+
+Next, we will delve into `sysctl`, a tool that allows us to configure kernel parameters at runtime. We will learn how to use sysctl to optimize the performance and security of our Linux systems. For example, IPv4 assassination attack can be prevented by setting `net.ipv4.tcp_rfc1337` to 1.
+
+After that, we will learn about system calls, which are the interface between user-space and kernal-space. We will learn how to use `strace` to trace system calls and `ltrace` to trace library calls. We will also learn how to use `gdb` to debug system calls.
+
+Finally, we will explore LVM, RAID, VFS, and the mount command, which are all used to manage and organize storage in Linux. In addition, we will take a deep dive into the structure of the Ext4 file system, and learn about `ext4undelete` and `sleuthkit`, which are tools that can be used to recover deleted files.
+
+#### Forensics Guide (4/14/2023)
+
+
 
 #### (4/21/2023)
 
