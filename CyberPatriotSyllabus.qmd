@@ -46,10 +46,12 @@ CyberPatriot is a national defensive cybersecurity competition that takes place 
 Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
 
 #### Introduction to Cisco Packet Tracer (1/12/2023)
-In this seminar, you will learn 
+In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
 
 #### Securing & Hardening Ubuntu/Fedora (1/13/2023)
-a
+This session will teach you how to protect and harden Ubuntu and Fedora by using access control lists (ACLs), discretionary access control (DAC), and mandatory access control (MAC). The distinction between Redhat-family Linux and Debain-family Linux is also discussed, as well as their similarities and distinctions. For Redhat-family linux, an overview of the use of 'dnf,' 'yum,' and 'rpm' is also provided. Capabilities such as SELinux, Apparmor, 'getfattr,' 'getacl,' and 'getfcap' are also addressed.
+
+{{< pagebreak >}}
 
 #### Advanced Cisco Packet Tracer (1/19/2023)
 a
