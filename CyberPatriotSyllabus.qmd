@@ -45,10 +45,10 @@ CyberPatriot is a national defensive cybersecurity competition that takes place 
 ### Semifinals Preparation (1/12/2023–1/20/2023)
 Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
 
-#### Introduction to Cisco Packet Tracer (1/12/2023)
+#### Introduction to Cisco Packet Tracer (1/12/2023) {#sec-intro-cisco-packet-tracer}
 In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
 
-#### Securing & Hardening Ubuntu/Fedora (1/13/2023) {#securing-harden-ubuntu-fedora}
+#### Securing & Hardening Ubuntu/Fedora (1/13/2023) {#sec-harden-ubuntu-fedora}
 This session will teach you how to protect and harden Ubuntu and Fedora by using access control lists (ACLs), discretionary access control (DAC), and mandatory access control (MAC). The distinction between Redhat-family Linux and Debain-family Linux is also discussed, as well as their similarities and distinctions. For Redhat-family linux, an overview of the use of 'dnf,' 'yum,' and 'rpm' is also provided. Capabilities such as SELinux, Apparmor, 'getfattr,' 'getacl,' and 'getfcap' are also addressed.
 
 {{< pagebreak >}}
@@ -165,6 +165,7 @@ Please note that this seminar will not be a comprehensive overview of all CLI to
     default { Write-Output "Other" }
   }
   ```
+
 - functions
   ```bash
   function hello() {
@@ -231,20 +232,58 @@ Only extremely common operations will be introduced:
 - `awk`, `Select-String`, and `re.split()`
 - `wc`, `Measure-Object`, and `len()`
 
+<!-- 
+TODO: Add Link here 
+-->
+
+You will be invited to participate in srcipting project of CyberPatriot, where we will build a script that will automate the process of setting up a secure baseline for Ubuntu, Windows, and Windows Server.
 
 #### ACL (access control list) (2/10/2023)
 
 In this seminar, you will gain a comprehensive understanding of the ACL (access control list) feature in Windows and how to effectively use it to secure your system. One of the key tools you will learn about is active directory, which allows for systematic management of ACLs, user accounts, and group memberships across multiple systems with a single source of truth.
 
-You will also learn about the principle of least privilege and its importance in securing your system. Topics such as DCom, account policy, user policy, and group policy will be covered in the user configuration section. As an example, Autoplay will be disabled. Additionally, you will learn about password complexity requirements and how to set local and domain password policies. As an optional topic, you may also learn about how to set Cisco password policies. ACLs in Linux is already covered at @securing-harden-ubuntu-fedora and shall not be covered in this seminar.
+You will also learn about the principle of least privilege and its importance in securing your system. Topics such as DCom, account policy, user policy, and group policy will be covered in the user configuration section. As an example, Autoplay will be disabled. Additionally, you will learn about password complexity requirements and how to set local and domain password policies. As an optional topic, you may also learn about how to set Cisco password policies. ACLs in Linux is already covered at @sec-harden-ubuntu-fedora and shall not be covered in this seminar.
 
 By the end of this seminar, you will be equipped with the knowledge and skills needed to effectively secure your system using ACLs and other related tools and techniques.
 
 #### Common Web Services (2/24/2023)
 
+<!-- Potentially duplicated with @sec-intro-cisco-packet-tracer -->
+In this seminar, you will learn about Cisco networking technology and its applications in Internet-based systems. You will be introduced to concepts such as interfaces, IP addressing, VLANs, and Gigabytes Ethernet interfaces. You will also learn about routing protocols, specifically OSPF, and their role in managing and maintaining Internet-based systems. This is considered as an intermediate-level review of networking concepts.
+
+```cisco
+enable
+configure terminal
+interface gigabitethernet 0/0
+ip address 192.168.10.1 255.255.255.0
+no shutdown
+exit
+```
+
+```cisco
+enable
+configure terminal
+router ospf 1
+network
+```
+
+You will be introduced to the concepts of planning and managing Internet-based systems. The focus will be on Linux services, with specific emphasis on Nginx, Apache, and PHP. You will learn how to configure and optimize these services for optimal performance and security.
+
+```bash
+sudo apt install nginx apache php-fpm
+```
+
+```bash
+sudo systemctl enable --now nginx apache php-fpm
+```
+
+<!-- Maybe configure them a bit -->
+
+Throughout the seminar, you will participate in hands-on activities that will allow you to apply the concepts you have learned to real-world scenarios. You will start with Cisco, learning about its interfaces and routing, then move on to Linux services, learning about Nginx, Apache, and PHP.
+
+#### Security in Network (3/3/2023)
 
 
-#### (3/3/2023)
 
 #### (3/10/2023)
 
