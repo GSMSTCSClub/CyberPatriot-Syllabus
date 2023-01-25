@@ -41,23 +41,31 @@ Barcodes and QR codes can be used in CTF challenges as a way to hide or encode i
 ## Overview
 CyberPatriot is a national defensive cybersecurity competition that takes place during the majority of the school year. The competition focuses on locating and fixing security vulnerabilities located within virtual machines and network topologies. GSMST CS Club hosts CyberPatriot seminars after school every Friday to prepare for the competition and teach the best practices and techniques for securing operating systems.
 
+## Important Event Dates
+### CyberPatriot Semifinals (1/21/2023)
+The CyberPatriot semifinals will take place on Saturday, January 21. The semifinals will be held in the LLLH from 9:00 AM to 3:00 PM. The semifinals will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The semifinals will be hosted by the CyberPatriot organization and will be open to all teams in the United States.
+
+### Schoolwide CyberPatriot Competition (2/25/2023)
+The first schoolwide CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. The competition will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The competition will be hosted by GSMST CS Club and will be open to all GSMST students. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team. 
+
+### Schoolwide CyberPatriot Compeition (4/8/2023)
+The second (and final) schoolwide CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team.
+
 ## Seminar Dates and Topics
 ### Semifinals Preparation (1/12/2023–1/20/2023)
 Because CyberPatriot semifinals will take place on Saturday, January 21, we will dedicate our CyberPatriot seminars leading up to the competition to prepare (1/13 & 1/20). We will also be conducting two Cisco Packet Tracer seminars on the Thursdays before semifinals to prepare teams for the Cisco Packet Tracer challenge (1/12 & 1/19).
 
-#### Introduction to Cisco Packet Tracer (1/12/2023) {#sec-intro-cisco-packet-tracer}
-In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
 
 #### Securing & Hardening Ubuntu/Fedora (1/13/2023) {#sec-harden-ubuntu-fedora}
 This session will teach you how to protect and harden Ubuntu and Fedora by using access control lists (ACLs), discretionary access control (DAC), and mandatory access control (MAC). The distinction between Redhat-family Linux and Debain-family Linux is also discussed, as well as their similarities and distinctions. For Redhat-family linux, an overview of the use of 'dnf,' 'yum,' and 'rpm' is also provided. Capabilities such as SELinux, Apparmor, 'getfattr,' 'getacl,' and 'getfcap' are also addressed.
 
+#### Introduction to Cisco Packet Tracer (1/19/2023) {#sec-intro-cisco-packet-tracer}
+In this seminar, you will learn how to use Cisco Packet Tracer to construct a network topology and configure devices to interact with one anothere. Routers, switches, and hubs will be discussed as basic network components. In addition, you will learn how to configure SSH, VLAN, and interfaces. The following CLI modes will be covered: user execution mode, privileged mode, global configuration mode, interface configuration mode, and ROMMON mode.
+
 {{< pagebreak >}}
 
-#### Advanced Cisco Packet Tracer (1/19/2023)
-a
-
-#### Securing & Hardening Windows/Windows Server (1/20/2023)
-a
+#### Securing & Hardening Windows (1/20/2023)
+This session will delve into the various methods and tools available to protect against common virus types and implement effective anti-malware strategies. We will also explore the built-in security features of Windows, such as the task manager, program management, and startup management. Additionally, we will cover the importance of regularly patching software, using the command prompt (CMD) for advanced troubleshooting, and implementing internet security best practices. Furthermore, we will discuss the Microsoft management console and the SysInternals suite of tools, which can provide detailed information and control over the operating system
 
 ### Content Seminars (1/27/2023–4/28/2023)
 
@@ -232,10 +240,6 @@ Only extremely common operations will be introduced:
 - `awk`, `Select-String`, and `re.split()`
 - `wc`, `Measure-Object`, and `len()`
 
-<!-- 
-TODO: Add Link here 
--->
-
 You will be invited to participate in srcipting project of CyberPatriot, where we will build a script that will automate the process of setting up a secure baseline for Ubuntu, Windows, and Windows Server.
 
 #### ACL (access control list) (2/10/2023)
@@ -246,7 +250,7 @@ You will also learn about the principle of least privilege and its importance in
 
 By the end of this seminar, you will be equipped with the knowledge and skills needed to effectively secure your system using ACLs and other related tools and techniques.
 
-#### Common Web Services (2/24/2023)
+#### Common Web Services (3/3/2023)
 
 <!-- Potentially duplicated with @sec-intro-cisco-packet-tracer -->
 In this seminar, you will learn about Cisco networking technology and its applications in Internet-based systems. You will be introduced to concepts such as interfaces, IP addressing, VLANs, and Gigabytes Ethernet interfaces. You will also learn about routing protocols, specifically OSPF, and their role in managing and maintaining Internet-based systems. This is considered as an intermediate-level review of networking concepts.
@@ -281,7 +285,7 @@ sudo systemctl enable --now nginx apache php-fpm
 
 Throughout the seminar, you will participate in hands-on activities that will allow you to apply the concepts you have learned to real-world scenarios. You will start with Cisco, learning about its interfaces and routing, then move on to Linux services, learning about Nginx, Apache, and PHP.
 
-#### Security in Network (3/3/2023)
+#### Network Security (3/10/2023)
 
 In this seminar, you will delve into the topic of security in network systems, with a particular focus on Cisco. You will learn about a variety of security-related features and protocols, including SSH and RSA for secure telecommunication, NAT for network address translation, Telnet for remote access, and the console port for physical access control.
 
@@ -319,23 +323,6 @@ hash sha
 authentication pre-share
 ```
 
-#### Diversity in Linux (3/10/2023)
-
-<!-- 
-TODO: Garrett choose this. Do we want to cover this?
- -->
-
-In this seminar, you will learn about the diversity of Linux distributions and how to choose the right one for your needs (basically, how to be a good Linux user). We will cover a few topics below:
-
-- Package managers, `apt`, `dnf`, and `pacman` (Ubuntu, Fedora, and Arch)
-- GUI development frameworks, `qt`, `gtk`, and `wx`
-- Translation layers, `wine`, `proton`, and `darling`
-- Modern cloud computing and containerization, `docker`, `kubernetes`, and `podman`
-
-![Kde](images/kde.png){height=1.5in}
-
-![Gnome](images/gnome.png){height=1.5in}
-
 #### Common Service Configuration (3/24/2023)
 
 In this seminar, you will learn about common services and their configurations in Linux and Windows systems. You will begin by learning about file services, specifically FTP (Vsftpd) and NFS, and how to set them up and configure them for optimal performance and security. You will also learn about Samba, a service that allows Linux systems to share files with Windows systems and vice versa. 
@@ -351,15 +338,10 @@ GRANT ALL ON test.* TO admin;
 
 Optionally, we may cover `choco` and `scoop` for Windows.
 
-#### Operation System (3/31/2023)
+#### Forensics Guide (3/31/2023)
+Today is the start of CS club officer applications. If you are interested in applying, please fill out the form. In this seminar, we will explore forensics questions. For Windows, Process Explorer, Process Monitor, Show hidde, TCP View and Treesize free will be introduced. The "Get-Service" command can be used to view and manage services on a Windows system.For Linux, `crontab`, `services`, and `systemd` will be introduced Crontab is a Linux utility that is used to schedule and run recurring tasks, while services and systemd are used to manage and configure running processes and services. Wireshark and Netstat can be used to analyze network traffic and connections, regardless of the operating system. We will also learn about `tcpdump`, which is a command-line tool that can be used to capture and analyze network traffic.
 
-
-Welcome! Today is the start of CS club officer applications. If you are interested in applying, please fill out the form.
-
-<!-- 
-TODO: Add Link here
- -->
-
+#### Operating Systems (4/14/2023)
 Operating systems are responsible for managing the resources of a computer system. In this seminar, you will learn about the basic concepts of operating systems, including processes, threads, user-space, kernal space, bootloader, kernal parameters, system calls, and virtual file systems. 
 
 First, we will look at the grub bootloader, which is responsible for loading the Linux kernel and initializing the operating system. We will learn how to configure and troubleshoot grub. We will also discuss the procedure of booting a Linux system:
@@ -377,13 +359,9 @@ After that, we will learn about system calls, which are the interface between us
 
 Finally, we will explore LVM, RAID, VFS, and the mount command, which are all used to manage and organize storage in Linux. In addition, we will take a deep dive into the structure of the Ext4 file system, and learn about `ext4undelete` and `sleuthkit`, which are tools that can be used to recover deleted files.
 
-#### Forensics Guide (4/14/2023)
-
-In this seminar, we will explore forensics questions. For Windows, Process Explorer, Process Monitor, Show hidde, TCP View and Treesize free will be introduced. The "Get-Service" command can be used to view and manage services on a Windows system.For Linux, `crontab`, `services`, and `systemd` will be introduced Crontab is a Linux utility that is used to schedule and run recurring tasks, while services and systemd are used to manage and configure running processes and services. Wireshark and Netstat can be used to analyze network traffic and connections, regardless of the operating system. We will also learn about `tcpdump`, which is a command-line tool that can be used to capture and analyze network traffic.
 
 #### Basic Setup (4/21/2023)
-
-In this seminar, we will summarize and review the concepts we have learned so far. We will create a checklist of things to do when a new image had been delivered to us. 
+In this seminar, we will summarize and review the concepts we have learned this year. We will create a checklist of things to do when a new image had been delivered to us. 
 
 For linux, here are some samples:
 - configuring OpenSSH on Linux
@@ -398,7 +376,16 @@ For all of them:
 - cleaning user accounts and removing unwanted software
 - protecting against malware with anti-virus.
 
+We will also learn about the diversity of Linux distributions and how to choose the right one for your needs (basically, how to be a good Linux user). We will cover a few topics below:
+
+- Package managers, `apt`, `dnf`, and `pacman` (Ubuntu, Fedora, and Arch)
+- GUI development frameworks, `qt`, `gtk`, and `wx`
+- Translation layers, `wine`, `proton`, and `darling`
+- Modern cloud computing and containerization, `docker`, `kubernetes`, and `podman`
+
+![Kde](images/kde.png){height=1.5in}
+
+![Gnome](images/gnome.png){height=1.5in}
 
 #### Chill (4/28/2023)
-
-End of year celebration. Maybe a final exam as well.
+End of year celebration. Discuss summer plans. Officer announcements. Plans for next year.
