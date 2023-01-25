@@ -379,10 +379,26 @@ Finally, we will explore LVM, RAID, VFS, and the mount command, which are all us
 
 #### Forensics Guide (4/14/2023)
 
+In this seminar, we will explore forensics questions. For Windows, Process Explorer, Process Monitor, Show hidde, TCP View and Treesize free will be introduced. The "Get-Service" command can be used to view and manage services on a Windows system.For Linux, `crontab`, `services`, and `systemd` will be introduced Crontab is a Linux utility that is used to schedule and run recurring tasks, while services and systemd are used to manage and configure running processes and services. Wireshark and Netstat can be used to analyze network traffic and connections, regardless of the operating system. We will also learn about `tcpdump`, which is a command-line tool that can be used to capture and analyze network traffic.
+
+#### Basic Setup (4/21/2023)
+
+In this seminar, we will summarize and review the concepts we have learned so far. We will create a checklist of things to do when a new image had been delivered to us. 
+
+For linux, here are some samples:
+- configuring OpenSSH on Linux
+- updating packages with Apt
+Windows:
+- enabling interactive login and Ctrl+Alt+Del on Windows
+- creating backup and restore points
+- securing drives
+For all of them:
+- installing VMWare tools
+- adjusting screen resolution
+- cleaning user accounts and removing unwanted software
+- protecting against malware with anti-virus.
 
 
-#### (4/21/2023)
+#### Chill (4/28/2023)
 
-#### (4/28/2023)
-
-End of year celebration
+End of year celebration. Maybe a final exam as well.
