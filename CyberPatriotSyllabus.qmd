@@ -60,7 +60,7 @@ CyberPatriot is a national defensive cybersecurity competition that takes place 
 The CyberPatriot semifinals will take place on Saturday, January 21. The semifinals will be held in the LLLH from 9:00 AM to 3:00 PM. The semifinals will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The semifinals will be hosted by the CyberPatriot organization and will be open to all teams in the United States.
 
 ### In-House CyberPatriot Competition (2/25/2023)
-The first (and only) in-house CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. The competition will be a 6-hour competition in which teams will be given a virtual machine and a network topology to secure. The competition will be hosted by GSMST CS Club and will be open to all GSMST students. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team. 
+The first (and only) in-house CyberPatriot competition! The competition will be held in the LLLH from 9:00 AM-4:00 PM. The competition will be a 6-hour competition in which teams will be given three virtual machines and a network topology to secure. The competition will be hosted by GSMST CS Club and will be open to all GSMST students. Students outside of the actual CyberPatriot teams are encouraged to participate and RSVP on the Google Form. Teams may only consist of four members, and each team must have at least one member who is not a member of a current CyberPatriot team. 
 
 
 ## Seminar Dates and Topics
